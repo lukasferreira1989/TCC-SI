@@ -1,0 +1,21 @@
+create table TCC(matricula integer(5) NOT NULL UNIQUE,nome varchar(25) NOT NULL,sexo char(1),endereco varchar(25),cidade varchar(10),estado char(2),nomemae varchar(25),email varchar(15),nomecurso char(8),cpf integer(11),rg integer(10),cep integer(8),telefone integer(11),periodo integer(2), primary key(matricula));
+
+
+create table alunos(matricula INT AUTO_INCREMENT PRIMARY KEY,nome varchar(25) NOT NULL,sexo char(1),endereco varchar(25),cidade varchar(10),estado char(2),nomemae varchar(25),email varchar(15),nomecurso char(8),cpf integer(11),rg integer(10),cep integer(8),telefone integer(11),periodo integer(2));
+
+create table alunos(matricula INT(10) AUTO_INCREMENT PRIMARY KEY UNIQUE,nome varchar(25) NOT NULL,sexo char(1),endereco varchar(25),cidade varchar(10),estado char(2),nomemae varchar(25),email varchar(15),nomecurso char(8),cpf integer(11),rg integer(10),cep integer(8),telefone integer(11),periodo integer(2));
+
+
+create table alunos(matricula INT AUTO_INCREMENT PRIMARY KEY UNIQUE,nome varchar(25) NOT NULL,sexo char(1),endereco varchar(25),cidade varchar(10),estado char(2),nomemae varchar(25),email varchar(15),nomecurso char(8),cpf integer(11),rg integer(10),cep integer(8),telefone integer(11),periodo integer(2))AUTO_INCREMENT=1000;
+
+create table alunos(matricula INT AUTO_INCREMENT PRIMARY KEY UNIQUE,nome varchar NOT NULL,sexo char,endereco varchar,cidade varchar,estado char,nomemae varchar,email varchar,nomecurso char,cpf integer,rg integer,cep integer,telefone integer,periodo integer)AUTO_INCREMENT=1000;
+
+
+create table alunos(matricula INT AUTO_INCREMENT PRIMARY KEY UNIQUE,nome varchar(25) NOT NULL,sexo char,endereco varchar(25),cidade varchar(10),estado char,nomemae varchar(25),email varchar(25),nomecurso char,cpf integer not null,rg integer,cep integer,telefone integer,periodo integer)AUTO_INCREMENT=1000;
+
+
+
+create table alunos(matricula INT AUTO_INCREMENT PRIMARY KEY UNIQUE,nome varchar(25) NOT NULL,sexo char,endereco varchar(25),cidade varchar(10),estado char,nomemae varchar(25),email varchar(25),nomecurso char,cpf long not null,rg long,cep integer,telefone integer,periodo integer)AUTO_INCREMENT=1000;
+
+
+create table alunos(matricula INT AUTO_INCREMENT PRIMARY KEY UNIQUE,nome varchar(25) NOT NULL,sexo char,endereco varchar(25),cidade varchar(10),estado char,nomemae varchar(25),email varchar(25),nomecurso char,cpf long not null,rg long,cep integer,telefone integer,periodo integer)AUTO_INCREMENT=1000;
